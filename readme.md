@@ -32,6 +32,7 @@ JavaScript
 Para o projeto final, será disponibilizado um link com um projeto-base já criado. A partir dessa estrutura, cada aluno ou dupla deverá desenvolver sua própria empresa, negócio ou solução, criando um site personalizado.
 
 **O projeto deverá contemplar também:**
+
 Responsividade, permitindo que o site se adapte a diferentes tamanhos de tela e dispositivos;
 Acessibilidade, buscando garantir que o conteúdo possa ser utilizado pelo maior número possível de pessoas.
 
