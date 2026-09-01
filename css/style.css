@@ -1,0 +1,76 @@
+/* ===================================================
+   RESET BÁSICO
+   Remove margens e preenchimentos padrões dos navegadores
+====================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===================================================
+   HEADER E NAVBAR (Usando seletores aninhados)
+====================================================== */
+
+/* Estilização da tag header */
+header {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ÚNICA CLASSE NO HEADER: div que delimita a largura */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Lista não ordenada dentro do header */
+header ul {
+    list-style: none; /* Remove os marcadores de bolinha */
+    display: flex;    /* Alinha os itens lado a lado */
+    justify-content: center; /* Centraliza a lista */
+    gap: 30px;        /* Espaçamento entre as opções */
+}
+
+/* Links do menu navegando diretamente pela tag a */
+header ul li a {
+    color: #ffffff;
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse por cima do link */
+header ul li a:hover {
+    color: #d39e00; /* Destaque dourado */
+}
+
+/* ===================================================
+   MAIN E FOOTER
+====================================================== */
+
+main {
+    min-height: 90vh;
+    padding: 40px 20px;
+}
+
+/* ÚNICA CLASSE NO MAIN: alinhamento do conteúdo */
+.main-container {
+    text-align: center;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+}
+
+/* ÚNICA CLASSE NO FOOTER: estilo do rodapé */
+.footer-container {
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 0.9rem;
+}
